@@ -1,0 +1,102 @@
+body {
+
+    background-color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 100px;
+}
+
+h2 { 
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: yellow;
+    font-size: 40px;
+}
+
+.maintable {
+   
+    display: table;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+    text-align: center;
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-collapse: separate;
+    margin: 0 auto;
+    
+    text-align: start;
+}  
+
+thead {
+ background-color: red;
+ text-align: center;
+ border-collapse: separate;
+}
+th {
+
+display: table-cell;
+border-top: 2px solid   black;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-collapse: separate;
+border-bottom: 2px solid black;
+vertical-align: inherit;
+
+}
+
+tr {
+display: table-row;
+text-align: start;
+border: 2px solid black;
+vertical-align: inherit;
+border-collapse: separate;
+
+
+
+
+
+}
+
+td { 
+display: table-cell;
+vertical-align: inherit;
+text-align: center;
+border-top: 2px solid grey;
+border-right: 2px solid grey;
+border-collapse: separate;
+}
+
+
+h3 {
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: orange;
+
+
+}
+.attribute-table {
+
+    display: table;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-collapse: separate;
+    margin: 0 auto;
+    
+    text-align: start;
+
+
+}
